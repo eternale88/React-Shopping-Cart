@@ -39,7 +39,7 @@ class PickupSavings extends React.Component {
     }
 
     const tooltip = (
-      <Tooltip id="tooltip">
+      <Tooltip>
         <p>
           Picking up your order in the store helps cut costs, and we pass the
           savings on to you.
@@ -48,7 +48,7 @@ class PickupSavings extends React.Component {
     )
 
     return (
-      <Row className="show-grid">
+      <Row className="mb-3">
         <Col md={6}>
           <OverlayTrigger placement="bottom" overlay={tooltip}>
             <div

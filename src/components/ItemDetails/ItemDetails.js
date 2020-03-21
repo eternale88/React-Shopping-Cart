@@ -16,7 +16,7 @@ class ItemDetails extends React.Component {
       <div>
         <Button
           className="item-details-button"
-          bsStyle="link"
+          variant="link"
           onClick={() => this.setState({ open: !this.state.open })}
         >
           {this.state.open === false ? `See` : `Hide `} item details
@@ -38,7 +38,7 @@ class ItemDetails extends React.Component {
                     Essentials by OFM ESS-3085 Racing style Leather Programming
                     Chair
                   </p>
-                  <Row className="show-grid">
+                  <Row>
                     <Col md={6}>
                       <strong>{`$${this.props.price}`}</strong>
                       <br />
