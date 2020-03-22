@@ -15,7 +15,7 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      total: 200,
+      total: 100,
       pickupSavings: -3.85,
       taxes: 0,
       estimatedTotal: 0,
